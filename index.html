@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Granite Hills Eagle Athletics - Weekly Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen" class="login-screen">
+    <div class="login-split">
+      <div class="login-hero">
+        <div class="login-hero-overlay"></div>
+        <div class="login-hero-content">
+          <img src="assets/eagle-full.png" alt="Eagle" class="login-eagle">
+          <h1>Eagle<br>Athletics</h1>
+        </div>
+      </div>
+      <div class="login-form-side">
+        <div class="login-form-inner">
+          <div class="login-brand">
+            <img src="assets/gh-letters.png" alt="GH" class="login-gh">
+            <span class="login-divider"></span>
+            <p>Weekly Report Portal</p>
+          </div>
+          <form id="login-form">
+            <label for="password">Access Code</label>
+            <input type="password" id="password" placeholder="Enter code" autocomplete="current-password" required>
+            <button type="submit" class="btn-login">Sign In <span class="arrow">&rarr;</span></button>
+            <p id="login-error" class="login-error" hidden>Invalid access code.</p>
+          </form>
+          <p class="login-footer">Granite Hills High School<br>El Cajon, California</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN APP -->
+  <div id="app" class="app" hidden>
+
+    <!-- Sticky Nav -->
+    <header class="nav" id="nav">
+      <div class="nav-inner">
+        <div class="nav-brand">
+          <img src="assets/eagle-head.png" alt="Eagle" class="nav-logo">
+          <span class="nav-title">Granite Hills Athletics</span>
+        </div>
+        <div class="nav-links">
+          <button class="nav-link active" data-tab="overview">Overview</button>
+          <button class="nav-link" data-tab="scores">Scores</button>
+          <button class="nav-link" data-tab="memo">Memo</button>
+          <button class="nav-link" data-tab="pa">PA Script</button>
+          <button class="nav-link" data-tab="admin">Edit</button>
+        </div>
+        <div class="nav-right">
+          <span id="week-label" class="week-pill"></span>
+          <button id="btn-logout" class="btn-text">Sign Out</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow" id="overview-date"></p>
+        <h1 class="hero-title">Weekly Athletics<br>Report</h1>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num" id="stat-wins">0</span>
+            <span class="hero-stat-label">Wins</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" id="stat-losses">0</span>
+            <span class="hero-stat-label">Losses</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" id="stat-events">0</span>
+            <span class="hero-stat-label">Events</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" id="stat-sports">0</span>
+            <span class="hero-stat-label">Sports</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <main class="content">
+
+      <!-- OVERVIEW -->
+      <section id="panel-overview" class="panel active">
+
+        <!-- Notables -->
+        <div class="section" id="notables-card">
+          <h2 class="section-title">Notable Performances</h2>
+          <div class="section-line"></div>
+          <ul id="notables-list" class="notables-list"></ul>
+        </div>
+
+        <!-- Sport Cards -->
+        <div class="section">
+          <h2 class="section-title">This Week by Sport</h2>
+          <div class="section-line"></div>
+          <div id="sport-summary-grid" class="sport-grid"></div>
+        </div>
+
+      </section>
+
+      <!-- SCORES & RESULTS -->
+      <section id="panel-scores" class="panel">
+        <div class="section">
+          <h2 class="section-title">Scores & Results</h2>
+          <div class="section-line"></div>
+          <div id="scores-container"></div>
+        </div>
+      </section>
+
+      <!-- PRINCIPAL'S MEMO -->
+      <section id="panel-memo" class="panel">
+        <div class="document-wrapper">
+          <div class="document-header">
+            <h2 class="section-title">Principal's Weekly Memo</h2>
+            <button class="btn-copy" data-copy="memo-body">Copy <span class="arrow">&rarr;</span></button>
+          </div>
+          <div class="section-line"></div>
+          <div id="memo-body" class="document-body"></div>
+        </div>
+      </section>
+
+      <!-- PA SCRIPT -->
+      <section id="panel-pa" class="panel">
+        <div class="document-wrapper">
+          <div class="document-header">
+            <h2 class="section-title">PA Announcement Script</h2>
+            <button class="btn-copy" data-copy="pa-body">Copy <span class="arrow">&rarr;</span></button>
+          </div>
+          <div class="section-line"></div>
+          <div id="pa-body" class="document-body"></div>
+        </div>
+      </section>
+
+      <!-- ADMIN -->
+      <section id="panel-admin" class="panel">
+        <div class="section">
+          <h2 class="section-title">Update Report</h2>
+          <div class="section-line"></div>
+          <p class="admin-note">Edit the JSON data and save. Changes appear instantly.</p>
+          <textarea id="admin-editor" class="admin-editor" spellcheck="false"></textarea>
+          <div class="admin-actions">
+            <button id="btn-save" class="btn-primary">Save Report</button>
+            <button id="btn-load-sample" class="btn-outline">Load Default</button>
+            <span id="save-status" class="save-status"></span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <img src="assets/gh-letters.png" alt="GH" class="footer-logo">
+        <div class="footer-text">
+          <p>Granite Hills High School Athletics</p>
+          <p class="footer-sub">James Davis, Athletic Director &bull; GUHSD &bull; El Cajon, CA</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

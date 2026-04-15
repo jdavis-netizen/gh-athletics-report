@@ -2,45 +2,14 @@
    Granite Hills Eagle Athletics — Weekly Report App
    ============================================================ */
 
-// --- Access codes ---
-// Add or remove codes from this list to control access.
-const VALID_CODES = ['2026'];
-
 const DATA_KEY = 'gh_athletics_data';
-let authenticated = false;
 
 function showApp() {
-  authenticated = true;
-  document.getElementById('login-screen').style.display = 'none';
+  const loginScreen = document.getElementById('login-screen');
+  if (loginScreen) loginScreen.style.display = 'none';
   document.getElementById('app').style.display = 'block';
   document.getElementById('app').removeAttribute('hidden');
   loadReport();
-}
-
-function logout() {
-  authenticated = false;
-  document.getElementById('login-screen').style.display = '';
-  document.getElementById('app').style.display = 'none';
-  document.getElementById('password').value = '';
-}
-
-const loginForm = document.getElementById('login-form');
-if (loginForm) {
-  loginForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    const pw = document.getElementById('password').value.trim();
-    if (VALID_CODES.indexOf(pw) !== -1) {
-      document.getElementById('login-error').hidden = true;
-      showApp();
-    } else {
-      document.getElementById('login-error').hidden = false;
-    }
-  });
-}
-
-const logoutBtn = document.getElementById('btn-logout');
-if (logoutBtn) {
-  logoutBtn.addEventListener('click', logout);
 }
 
 // ===== TABS =====
@@ -315,3 +284,4 @@ document.getElementById('btn-load-sample').addEventListener('click', () => {
 // ===== INIT =====
 // Clear old cached data so the latest built-in report always loads.
 localStorage.removeItem(DATA_KEY);
+showApp();

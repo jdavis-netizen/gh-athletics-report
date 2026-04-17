@@ -38,72 +38,68 @@ document.querySelectorAll('.btn-copy').forEach(btn => {
 // ===== SAMPLE DATA =====
 function getSampleData() {
   return {
-    weekLabel: "Week of April 6–12, 2026",
-    dateRange: "Monday, April 6 – Saturday, April 12, 2026",
+    weekLabel: "Week of April 13–17, 2026",
+    dateRange: "Monday, April 13 – Thursday, April 17, 2026",
     sports: [
       {
         name: "Baseball",
-        record: "11-4 overall",
+        record: "13-4 overall",
         games: [
-          { date: "Wed 4/8", opponent: "vs Helix", score: "11-2", result: "W", notes: "Dominant home win to open Grossmont Hills League title defense" },
-          { date: "Fri 4/10", opponent: "@ Helix", score: "1-6", result: "L", notes: "Romeo Briones (Helix) held Eagles to one hit over 6 innings" }
+          { date: "Mon 4/14", opponent: "@ El Capitan", score: "10-1", result: "W", notes: "Dominant road win in GHL opener vs. El Capitan" },
+          { date: "Thu 4/16", opponent: "vs El Capitan", score: "3-1", result: "W", notes: "Completed the home-and-away sweep of El Capitan" }
         ]
       },
       {
         name: "Softball",
-        record: "4-8 overall",
+        record: "5-10 overall",
         games: [
-          { date: "Mon 4/6", opponent: "@ Olympian", score: "8-3", result: "W", notes: "" },
-          { date: "Tue 4/7", opponent: "vs San Marcos", score: "6-16", result: "L", notes: "Taylor Nash: 2 RBI; Ariana Heninger: 2 RBI (6 innings)" },
-          { date: "Fri 4/10", opponent: "vs Point Loma", score: "1-8", result: "L", notes: "" }
+          { date: "Mon 4/14", opponent: "vs Steele Canyon", score: "9-8", result: "W", notes: "Walk-off win in 9 innings in GHL play" },
+          { date: "Thu 4/16", opponent: "@ West Hills", score: "2-0", result: "L", notes: "Shutout loss on the road" }
         ]
       },
       {
         name: "Boys Lacrosse",
-        record: "9-3 overall",
+        record: "10-3 overall",
         games: [
-          { date: "Tue 4/7", opponent: "vs La Jolla", score: "14-3", result: "W", notes: "" },
-          { date: "Wed 4/8", opponent: "vs Corona del Mar", score: "9-8", result: "W", notes: "Thrilling one-goal victory" },
-          { date: "Fri 4/10", opponent: "vs West Hills", score: "15-2", result: "W", notes: "" }
+          { date: "Mon 4/14", opponent: "@ Santana", score: "14-5", result: "W", notes: "GHL win; Eagles continue strong league run" }
         ]
       },
       {
         name: "Girls Lacrosse",
-        record: "1-7 overall",
+        record: "2-7 overall",
         games: [
-          { date: "Fri 4/10", opponent: "vs Eastlake", score: "4-9", result: "L", notes: "" }
+          { date: "Mon 4/14", opponent: "vs Valhalla", score: "7-5", result: "W", notes: "Home win; second victory of the season" }
         ]
       },
       {
         name: "Boys Volleyball",
-        record: "8-4 overall",
+        record: "10-10 overall, 5-0 GHL (1st place)",
         games: [
-          { date: "Mon 4/6", opponent: "@ El Cajon Valley", score: "3-0", result: "W", notes: "" },
-          { date: "Wed 4/8", opponent: "vs El Capitan", score: "3-0", result: "W", notes: "" },
-          { date: "Fri 4/10", opponent: "vs University City", score: "3-1", result: "W", notes: "" }
+          { date: "Mon 4/13", opponent: "@ Helix", score: "3-1", result: "W", notes: "5th straight league win; Eagles are undefeated in GHL" },
+          { date: "Wed 4/15", opponent: "vs West Hills", score: "", result: "", notes: "Score not yet posted" }
         ]
       },
       {
         name: "Swimming & Diving",
         record: "",
         games: [
-          { date: "Fri 4/10", opponent: "vs Grossmont (Girls Varsity)", score: "108-72", result: "W", notes: "" },
-          { date: "Fri 4/10", opponent: "vs Grossmont (Boys Varsity)", score: "90-72", result: "W", notes: "" }
+          { date: "Thu 4/17", opponent: "vs West Hills", score: "", result: "", notes: "Meet scheduled for 4:00 PM today — score pending" }
         ]
       },
       {
         name: "Track & Field",
         record: "",
         games: [
-          { date: "Thu 4/9", opponent: "vs Steele Canyon (Boys)", score: "49-86", result: "L", notes: "Source: Athletic.net" },
-          { date: "Thu 4/9", opponent: "vs Steele Canyon (Girls)", score: "24-107", result: "L", notes: "Source: Athletic.net" }
+          { date: "Mon 4/13", opponent: "5-Way Invitational (host)", score: "", result: "", notes: "Granite Hills hosted 5-team invitational; full results not yet available" },
+          { date: "Thu 4/16", opponent: "@ West Hills", score: "", result: "", notes: "Dual meet results not yet posted" }
         ]
       },
       {
         name: "Boys Tennis",
         record: "",
         games: [
-          { date: "Thu 4/9", opponent: "vs Grossmont", score: "6-12", result: "L", notes: "" }
+          { date: "Mon 4/14", opponent: "@ El Cajon Valley", score: "12-6", result: "W", notes: "GHL win" },
+          { date: "Thu 4/16", opponent: "vs Southwest EC", score: "10-8", result: "W", notes: "GHL win; back-to-back league victories" }
         ]
       },
       {
@@ -113,33 +109,32 @@ function getSampleData() {
       }
     ],
     notables: [
-      "Baseball — 11-2 rout of Helix to open league title defense",
-      "Boys Lacrosse — 3-0 week including a dramatic 9-8 win over Corona del Mar",
-      "Boys Volleyball — Swept all 3 matches this week, now 8-4",
-      "Swimming & Diving — Swept Grossmont in all 4 divisions (Girls 108-72, Boys 90-72)",
-      "Taylor Nash & Ariana Heninger (Softball) — 2 RBI each vs San Marcos"
+      "Baseball — Swept El Capitan in two league games (10-1 and 3-1); Eagles now 13-4 overall",
+      "Softball — Dramatic walk-off 9-8 win over Steele Canyon in 9 innings in league play",
+      "Boys Lacrosse — Beat Santana 14-5 in GHL, improving to 10-3 overall",
+      "Girls Lacrosse — Picked up a gritty 7-5 win over Valhalla for their 2nd win of the season",
+      "Boys Volleyball — Undefeated in Grossmont Hills League at 5-0, 1st place",
+      "Boys Tennis — Won both league matches this week (12-6 and 10-8)"
     ],
     principalMemo: `Dear Dr. Jesperson,
 
-I'm pleased to share this week's athletics update for Granite Hills High School.
+I'm pleased to share this week's athletics update for Granite Hills High School for the week of April 13–17, 2026.
 
-It was a busy week for Eagle Athletics with several strong showings across our spring sports programs.
+It was another productive week for Eagle Athletics, with wins across baseball, softball, lacrosse, volleyball, and tennis.
 
-Baseball split their Grossmont Hills League series with Helix. The Eagles opened with a dominant 11-2 victory at home on Wednesday before falling 1-6 on the road Friday, where Helix's Romeo Briones held our hitters to just one hit over six innings. The Eagles stand at 11-4 overall.
+Baseball had an outstanding week, sweeping El Capitan in the Grossmont Hills League series. The Eagles dominated on the road Monday, 10-1, then closed out the sweep at home Thursday with a 3-1 victory. Granite Hills now stands at 13-4 overall and continues their push to defend the GHL title.
 
-Boys Lacrosse had an outstanding 3-0 week, highlighted by a thrilling 9-8 victory over Corona del Mar on Wednesday. They also cruised past La Jolla (14-3) and West Hills (15-2), improving to 9-3 on the season. The team is ranked #27 in California.
+Softball delivered one of the highlights of the week with a dramatic walk-off 9-8 win over Steele Canyon in 9 innings on Monday. The Eagles played hard all week, though they fell 2-0 to West Hills on Thursday. The team stands at 5-10 on the year and continues to compete in league.
 
-Boys Volleyball continued its strong run with three straight wins — sweeping El Cajon Valley and El Capitan 3-0, and topping University City 3-1 — moving to 8-4 overall.
+Boys Lacrosse traveled to Santana on Monday and came away with a convincing 14-5 league victory, improving to 10-3 overall. The Eagles continue to be one of the stronger programs in the area.
 
-Softball went 1-2 this week, picking up a solid 8-3 win at Olympian before dropping games to San Marcos and Point Loma. Taylor Nash and Ariana Heninger each contributed 2 RBI in the San Marcos game.
+Girls Lacrosse picked up a big 7-5 home win over Valhalla on Monday, their second win of the season. The team is working hard and it's great to see their perseverance paying off. They now stand at 2-7.
 
-Girls Lacrosse fell to Eastlake 4-9 and sits at 1-7 on the season. The team continues to battle through a rebuilding year.
+Boys Volleyball is absolutely rolling in league play. The Eagles beat Helix on the road Monday 3-1, extending their Grossmont Hills League record to a perfect 5-0 and keeping them in first place. Their overall record stands at 10-10, but in league they are unmatched.
 
-Boys Tennis fell to Grossmont 6-12 on Thursday in league play.
+Boys Tennis continues to build momentum, winning both league matches this week — a 12-6 victory at El Cajon Valley on Monday and a 10-8 win over Southwest EC at home Thursday.
 
-Track & Field hosted Steele Canyon on Thursday. The boys fell 49-86 and the girls lost 24-107 in the dual meet. Steele Canyon is a strong program and our athletes competed hard.
-
-Swimming & Diving swept Grossmont on Friday — the girls won 108-72 and the boys won 90-72. Both JV squads won as well. Boys Golf had no events this week.
+Track & Field hosted the Granite Hills 5-Way Invitational on Monday, giving our athletes valuable competitive experience. The team also competed in a dual meet at West Hills on Thursday; full results have not yet been posted. Swimming & Diving is scheduled to host West Hills this afternoon at 4:00 PM. Boys Golf had no events this week.
 
 Go Eagles!
 
@@ -149,17 +144,21 @@ Granite Hills High School`,
 
     paScript: `Good morning, Eagles! Here are your weekly athletics highlights:
 
-Eagle Baseball opened their league title defense with a huge 11-2 win over Helix at home on Wednesday! The Eagles are now 11-4 on the season.
+Eagle Baseball had a fantastic week — the Eagles swept El Capitan in two league games, winning 10-1 on the road Monday and 3-1 at home Thursday! Granite Hills is now 13 and 4 on the season!
 
-Our Boys Lacrosse team went 3-and-0 this week, including a thrilling 9-8 victory over Corona del Mar! They also beat La Jolla 14-3 and West Hills 15-2. The Eagles are 9-3 and ranked 27th in California!
+Softball gave us one of the games of the year — a walk-off 9-8 win over Steele Canyon in 9 innings on Monday! What a comeback for our Eagle softball team!
 
-Boys Volleyball is on a roll — they swept all three matches this week, beating El Cajon Valley, El Capitan, and University City to improve to 8-4.
+Boys Lacrosse beat Santana 14-5 on the road Monday and is now 10 and 3 on the year. The Eagles are rolling!
 
-Softball picked up a nice 8-3 road win at Olympian on Monday. Great effort from Taylor Nash and Ariana Heninger this week.
+Girls Lacrosse picked up a big home win over Valhalla, 7-5, on Monday. Great effort from our Lady Eagles!
 
-Swimming and Diving swept Grossmont on Friday — girls won 108-72 and boys won 90-72! Great showing in the pool.
+Boys Volleyball is in first place in the Grossmont Hills League, undefeated at 5 and 0 in league play! The Eagles beat Helix 3-1 on Monday — way to go, Eagles!
 
-Let's keep supporting all our Eagle athletes — check the schedule for this week's home games. Go Eagles!`
+Boys Tennis won both matches this week — 12-6 at El Cajon Valley and 10-8 over Southwest EC at home. Great work on the courts!
+
+And a reminder — Swimming & Diving hosts West Hills today at 4 PM. Come out and cheer on the Eagles in the pool!
+
+Let's keep the energy going — Go Eagles!`
   };
 }
 

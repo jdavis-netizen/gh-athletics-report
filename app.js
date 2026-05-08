@@ -47,7 +47,7 @@ function getSampleData() {
         games: [
           { date: "Fri 5/1", opponent: "@ Valhalla", score: "24-1", result: "W", notes: "Dominant road win to sweep Valhalla series — 24 runs!" },
           { date: "Tue 5/5", opponent: "vs Helix", score: "6-2", result: "W", notes: "Solid home win over the Scotties" },
-          { date: "Thu 5/7", opponent: "@ El Capitan/Lakeside", score: "14-7", result: "W", notes: "Big road win to close the regular season strong" },
+          { date: "Thu 5/7", opponent: "@ El Capitan/Lakeside", score: "14-7", result: "W", notes: "Big road win in league play" },
           { date: "Fri 5/8", opponent: "@ Grossmont", score: "", result: "", notes: "Today on the road — 4:00 PM" }
         ]
       },
@@ -105,7 +105,7 @@ function getSampleData() {
     ],
     notables: [
       "🏆 Boys Lacrosse — CIF QUARTERFINALS this Saturday vs Santana, 7:00 PM at Granite Hills Stadium! Come out and pack the stands!",
-      "🏆 Baseball — 3-0 week to wrap up the regular season; 19-5 overall, 8-2 GHL, 1st place — heading into CIF on a 5-game win streak",
+      "🏆 Baseball — Perfect 3-0 week; now 19-5 overall, 8-2 GHL, 1st place — riding a 5-game win streak with one more week before CIF",
       "Boys Volleyball — Battled Eastlake to a heartbreaking 3-2 5-set CIF loss; what a season for the GHL Champs",
       "Softball — Big 11-10 home win over West Hills Tuesday in a thrilling high-scoring battle",
       "Girls Lacrosse — Strong 15-9 road win at West Hills; fell to Mira Mesa later in the week"
@@ -114,11 +114,11 @@ function getSampleData() {
 
 I'm pleased to share this week's Eagle Athletics update for the week of May 1–8, 2026. With the regular season wrapping up and CIF playoffs underway, our spring teams are competing at a high level and putting Granite Hills in great position for postseason success.
 
-Baseball had a perfect 3–0 week. The Eagles opened with a 24–1 road blowout at Valhalla on Friday, took down Helix 6–2 at home on Tuesday, and finished the regular season with a 14–7 road win at El Capitan/Lakeside on Thursday. The team finishes league play 8–2 and 19–5 overall — first place in the Grossmont Hills League and riding a 5-game win streak into the CIF playoffs.
+Baseball had a perfect 3–0 week. The Eagles took down Valhalla 24–1 on the road Friday, beat Helix 6–2 at home on Tuesday, and won 14–7 on the road at El Capitan/Lakeside on Thursday. The team is 19–5 overall and 8–2 in league — first place in the Grossmont Hills League and riding a 5-game win streak. Baseball still has one more week of regular season games before CIF playoffs begin, with games against Grossmont and Valhalla on the schedule.
 
 The biggest event of the week is still ahead: Boys Lacrosse hosts Santana in the CIF Quarterfinals this Saturday, May 9, at 7:00 PM at Granite Hills Stadium. The Eagles are 14–3 overall and playing some of the best lacrosse in East County. We are anticipating a large crowd and would appreciate your help in spreading the word — this is a marquee event for our school.
 
-Softball split their two league games this week. The Lady Eagles took down West Hills 11–10 in an exciting home contest on Tuesday before falling 9–2 to Santana at home on Thursday. The team is now 8–14 overall and continues to compete hard.
+Softball split their two league games this week. The Lady Eagles took down West Hills 11–10 in an exciting home contest on Tuesday before falling 9–2 to Santana at home on Thursday. The team is now 8–14 overall, with one more week of regular season games to play before CIF playoffs begin.
 
 Girls Lacrosse went 1–1 on the week — a strong 15–9 road win over West Hills on Friday to close the regular season, followed by a tough loss to Mira Mesa later in the week.
 
@@ -140,9 +140,9 @@ Granite Hills High School`,
 
 SATURDAY NIGHT — your Boys Lacrosse Eagles host Santana in the CIF QUARTERFINALS — 7 PM at Granite Hills Stadium! The Eagles are 14 and 3 and ready to roll! Eagles, you do NOT want to miss this one — come out, pack the stands, and bring the noise! Let's send our boys to the semifinals!
 
-Eagle Baseball had a PERFECT 3 and 0 week! Friday they crushed Valhalla 24 to 1 on the road, Tuesday they beat Helix 6 to 2 at home, and Thursday they took down El Capitan and Lakeside 14 to 7 on the road! The Eagles are now 19 and 5, FIRST PLACE in the Grossmont Hills League at 8 and 2 — and headed into CIF on a 5-game win streak!
+Eagle Baseball had a PERFECT 3 and 0 week! Friday they crushed Valhalla 24 to 1 on the road, Tuesday they beat Helix 6 to 2 at home, and Thursday they took down El Capitan and Lakeside 14 to 7 on the road! The Eagles are now 19 and 5, FIRST PLACE in the Grossmont Hills League at 8 and 2! One more week of regular season games — let's keep that win streak alive!
 
-Softball fought hard this week — they BEAT West Hills 11 to 10 in a thriller at home Tuesday! Tough loss to Santana on Thursday, but the Lady Eagles are battling.
+Softball fought hard this week — they BEAT West Hills 11 to 10 in a thriller at home Tuesday! Tough loss to Santana on Thursday, but the Lady Eagles still have one more week of regular season games before CIF — keep battling!
 
 Girls Lacrosse closed out the regular season with a strong 15 to 9 road win at West Hills on Friday — tough loss to Mira Mesa later in the week, but a great year for the Lady Eagles!
 

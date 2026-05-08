@@ -84,8 +84,11 @@ function getSampleData() {
       },
       {
         name: "Swimming & Diving",
-        record: "Girls — Grossmont Hills League Champions 🏆",
-        games: []
+        record: "Girls — Grossmont Hills League Champions 🏆 | Boys & Girls competing in CIF",
+        games: [
+          { date: "Season", opponent: "Grossmont Hills League Championship", score: "1st Place (Girls)", result: "W", notes: "🏆 LEAGUE CHAMPIONS — Lady Eagles claimed the GHL title!" },
+          { date: "This Week", opponent: "CIF Championships", score: "", result: "", notes: "Both Boys and Girls Swim & Dive teams competing at CIF — let's go Eagles!" }
+        ]
       },
       {
         name: "Track & Field",
@@ -105,6 +108,7 @@ function getSampleData() {
     ],
     notables: [
       "🏆 Boys Lacrosse — CIF QUARTERFINALS this Saturday vs Santana, 7:00 PM at Granite Hills Stadium! Come out and pack the stands!",
+      "🏆 Girls Swimming — GROSSMONT HILLS LEAGUE CHAMPIONS! Both Boys & Girls Swim teams competing at CIF this week!",
       "🏆 Baseball — Perfect 3-0 week; now 19-5 overall, 8-2 GHL, 1st place — riding a 5-game win streak with one more week before CIF",
       "Boys Volleyball — Battled Eastlake to a heartbreaking 3-2 5-set CIF loss; what a season for the GHL Champs",
       "Softball — Big 11-10 home win over West Hills Tuesday in a thrilling high-scoring battle",
@@ -124,7 +128,7 @@ Girls Lacrosse went 1–1 on the week — a strong 15–9 road win over West Hil
 
 Boys Volleyball — our reigning Grossmont Hills League Champions — saw their CIF run come to a heartbreaking end in a 3–2 five-set loss to Eastlake. The team battled to the final point and represented Granite Hills with pride and competitiveness throughout an outstanding season.
 
-Girls Swimming & Diving — your Grossmont Hills League Champions — continue to represent Granite Hills with excellence as they prepare for the CIF Championships in the coming weeks.
+Swimming & Diving has been one of our brightest stories of the spring. Our Girls team are your Grossmont Hills League CHAMPIONS, and both the Boys and Girls teams are currently competing at the CIF Championships. Please join me in cheering on these student-athletes as they represent Granite Hills at the section level.
 
 Boys Tennis, Track & Field, and Boys Golf had no scheduled events this week.
 
@@ -147,6 +151,8 @@ Softball fought hard this week — they BEAT West Hills 11 to 10 in a thriller a
 Girls Lacrosse closed out the regular season with a strong 15 to 9 road win at West Hills on Friday — tough loss to Mira Mesa later in the week, but a great year for the Lady Eagles!
 
 And let's give it up for Boys Volleyball — your Grossmont Hills League CHAMPIONS — who battled Eastlake in CIF and came up just short in a 3 to 2 five-set thriller. What a season, men! Your school is PROUD!
+
+And HUGE news from the pool — your Girls Swimming and Diving team are your GROSSMONT HILLS LEAGUE CHAMPIONS! AND — both the Boys AND Girls Swim and Dive teams are competing at the CIF Championships THIS WEEK! Let's go Eagles — bring home some hardware!
 
 And don't forget — your Girls Swimming and Diving team are your GROSSMONT HILLS LEAGUE CHAMPIONS! Congratulations again to the Lady Eagles!
 

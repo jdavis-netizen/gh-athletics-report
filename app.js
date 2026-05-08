@@ -84,9 +84,10 @@ function getSampleData() {
       },
       {
         name: "Swimming & Diving",
-        record: "",
+        record: "Girls — Grossmont Hills League Champions 🏆",
         games: [
-          { date: "Fri 4/24", opponent: "@ Helix", score: "", result: "", notes: "Boys & Girls meet last Friday — scores not posted" }
+          { date: "Fri 4/24", opponent: "@ Helix", score: "", result: "", notes: "Boys & Girls meet last Friday — scores not posted" },
+          { date: "Week", opponent: "GHL League Championship", score: "1st Place (Girls)", result: "W", notes: "Lady Eagles claim the Grossmont Hills League title!" }
         ]
       },
       {
@@ -108,6 +109,7 @@ function getSampleData() {
       }
     ],
     notables: [
+      "🏆 Girls Swimming — GROSSMONT HILLS LEAGUE CHAMPIONS! Lady Eagles claim the league title!",
       "Baseball — Crushed Valhalla 20-0 at home Thursday in a dominant league win; Eagles now 16-5 and rolling into the final week",
       "Boys Lacrosse — Went 2-0 with a 12-9 home win over Santana and a 17-3 road blowout at Helix; now 14-3 overall",
       "Girls Lacrosse — Perfect 2-0 week with a 15-6 win at Valhalla and an 11-9 home win over El Capitan/Lakeside",
@@ -115,9 +117,11 @@ function getSampleData() {
     ],
     principalMemo: `Dear Dr. Jesperson,
 
-I'm pleased to share this week's Eagle Athletics update for the week of April 24 – May 1, 2026. As the regular season winds down, our spring teams continue to compete at a high level, and this week featured several outstanding performances.
+I'm pleased to share this week's Eagle Athletics update for the week of April 24 – May 1, 2026. We have a major accomplishment to celebrate this week, along with several outstanding team performances.
 
-Baseball delivered the headline of the week — a dominant 20–0 home shutout of Valhalla on Thursday. The offense was relentless and the pitching was sharp; it was the kind of all-around performance that signals a team peaking at the right time. The Eagles improve to 16–5 overall and travel to Valhalla tonight to look to sweep the league series.
+The biggest news: our Girls Swimming & Diving team has officially claimed the Grossmont Hills League Championship! This is a tremendous achievement for our Lady Eagles and a credit to the athletes, coaches, and program. Please join me in congratulating the team — they have represented Granite Hills with excellence all season.
+
+Baseball delivered another headline performance — a dominant 20–0 home shutout of Valhalla on Thursday. The offense was relentless and the pitching was sharp; it was the kind of all-around performance that signals a team peaking at the right time. The Eagles improve to 16–5 overall and travel to Valhalla tonight to look to sweep the league series.
 
 Boys Lacrosse went a perfect 2–0 on the week. The Eagles opened with a 12–9 home win over Santana on Friday, then traveled to Helix on Tuesday and posted a dominant 17–3 road victory. Now 14–3 overall, the team continues to play some of the best lacrosse in East County. They host El Capitan/Lakeside tonight at Granite Hills Stadium at 7:00 PM.
 
@@ -127,7 +131,7 @@ Boys Volleyball continued its excellent run with two more wins — a 3–0 road 
 
 Boys Tennis fell 4–14 at Central Union on Tuesday in a tough non-league road match.
 
-Softball played at Steele Canyon on Thursday; the score has not yet been posted. Swimming & Diving competed at Helix last Friday; scores were not posted. Track & Field had no meets and Boys Golf had no events this week.
+Softball played at Steele Canyon on Thursday; the score has not yet been posted. Track & Field had no meets and Boys Golf had no events this week.
 
 Thank you, as always, for your continued support of our student-athletes. With the postseason just ahead, this is an exciting stretch of competition for our Eagles.
 
@@ -138,6 +142,8 @@ Athletic Director
 Granite Hills High School`,
 
     paScript: `Good morning, Eagles! Here are this week's athletics highlights — your Eagle athletes had a HUGE week!
+
+First — let's give it up for our Girls Swimming and Diving team — they are your GROSSMONT HILLS LEAGUE CHAMPIONS! Congratulations to the Lady Eagles on bringing home the league title! Outstanding job!
 
 Eagle Baseball put on a SHOW Thursday — they shut out Valhalla 20 to ZERO at home! That's right, 20 to nothing! The offense, the pitching, the defense — everything was working! The Eagles are now 16 and 5 overall, and they're back at it TONIGHT on the road at Valhalla, 4 PM!
 

@@ -43,17 +43,17 @@ function getSampleData() {
     sports: [
       {
         name: "Baseball",
-        record: "16-5 overall",
+        record: "19-5 overall, 8-2 GHL",
         games: [
-          { date: "Thu 4/30", opponent: "vs Valhalla", score: "20-0", result: "W", notes: "Dominant shutout — Eagles erupt for 20 runs at home; offense and pitching firing on all cylinders" },
-          { date: "Fri 5/1", opponent: "@ Valhalla", score: "", result: "", notes: "Tonight on the road at 4:00 PM — Eagles look to sweep the league series" }
+          { date: "Thu 4/30", opponent: "vs Valhalla", score: "20-0", result: "W", notes: "Dominant home shutout — Eagles erupt for 20 runs" },
+          { date: "Fri 5/1", opponent: "@ Valhalla", score: "24-1", result: "W", notes: "Another offensive explosion! Eagles sweep the Valhalla series and finish 8-2 in league play" }
         ]
       },
       {
         name: "Softball",
-        record: "",
+        record: "7-13 overall",
         games: [
-          { date: "Thu 4/30", opponent: "@ Steele Canyon", score: "", result: "", notes: "Road game played Thursday — score not yet posted" }
+          { date: "Thu 4/30", opponent: "@ Steele Canyon", score: "4-6", result: "L", notes: "Tough road loss in GHL play" }
         ]
       },
       {
@@ -112,7 +112,7 @@ function getSampleData() {
     notables: [
       "🏆 Girls Swimming — GROSSMONT HILLS LEAGUE CHAMPIONS! Lady Eagles claim the league title!",
       "🏆 Boys Lacrosse — CIF QUARTERFINALS this Saturday vs Santana, 7:00 PM at Granite Hills Stadium! Come out and pack the stands!",
-      "Baseball — Crushed Valhalla 20-0 at home Thursday in a dominant league win; Eagles now 16-5 and rolling into the final week",
+      "Baseball — Swept Valhalla in dominant fashion (20-0 home, 24-1 road)! Eagles finish 8-2 in GHL and 19-5 overall heading into CIF",
       "Boys Lacrosse — Went 2-0 with a 12-9 home win over Santana and a 17-3 road blowout at Helix; now 14-3 overall",
       "Girls Lacrosse — Perfect 2-0 week with a 15-6 win at Valhalla and an 11-9 home win over El Capitan/Lakeside",
       "Boys Volleyball — Swept El Capitan/Lakeside 3-0 on the road and beat Helix 3-1 at home — another flawless week"
@@ -123,7 +123,7 @@ I'm pleased to share this week's Eagle Athletics update for the week of April 24
 
 The biggest news: our Girls Swimming & Diving team has officially claimed the Grossmont Hills League Championship! This is a tremendous achievement for our Lady Eagles and a credit to the athletes, coaches, and program. Please join me in congratulating the team — they have represented Granite Hills with excellence all season.
 
-Baseball delivered another headline performance — a dominant 20–0 home shutout of Valhalla on Thursday. The offense was relentless and the pitching was sharp; it was the kind of all-around performance that signals a team peaking at the right time. The Eagles improve to 16–5 overall and travel to Valhalla tonight to look to sweep the league series.
+Baseball delivered back-to-back statement performances — a 20–0 home shutout of Valhalla on Thursday, followed by a 24–1 road blowout on Friday to complete the league series sweep. The offense was unstoppable and the pitching was dominant. The Eagles finish league play 8–2 and 19–5 overall, peaking at exactly the right time as they head into CIF playoffs.
 
 Boys Lacrosse went a perfect 2–0 on the week. The Eagles opened with a 12–9 home win over Santana on Friday, then traveled to Helix on Tuesday and posted a dominant 17–3 road victory. Now 14–3 overall, the team has earned a spot in the CIF Quarterfinals. They host El Capitan/Lakeside tonight at Granite Hills Stadium at 7:00 PM, and then face Santana in a CIF Quarterfinal rematch this Saturday at 7:00 PM at Granite Hills Stadium. We anticipate a packed house — please help spread the word.
 
@@ -133,7 +133,9 @@ Boys Volleyball continued its excellent run with two more wins — a 3–0 road 
 
 Boys Tennis fell 4–14 at Central Union on Tuesday in a tough non-league road match.
 
-Softball played at Steele Canyon on Thursday; the score has not yet been posted. Track & Field had no meets and Boys Golf had no events this week.
+Softball fell 6–4 on the road at Steele Canyon on Thursday in a tightly-contested league game. The Lady Eagles continue to compete hard and finish the regular season at 7–13.
+
+Track & Field had no meets and Boys Golf had no events this week.
 
 Thank you, as always, for your continued support of our student-athletes. With the postseason just ahead, this is an exciting stretch of competition for our Eagles.
 
@@ -147,7 +149,7 @@ Granite Hills High School`,
 
 First — let's give it up for our Girls Swimming and Diving team — they are your GROSSMONT HILLS LEAGUE CHAMPIONS! Congratulations to the Lady Eagles on bringing home the league title! Outstanding job!
 
-Eagle Baseball put on a SHOW Thursday — they shut out Valhalla 20 to ZERO at home! That's right, 20 to nothing! The offense, the pitching, the defense — everything was working! The Eagles are now 16 and 5 overall, and they're back at it TONIGHT on the road at Valhalla, 4 PM!
+Eagle Baseball put on TWO shows this week! Thursday they SHUT OUT Valhalla 20 to ZERO at home! Then Friday on the road they did it AGAIN — 24 to 1 over Valhalla! The Eagles finish league play 8 and 2 and are now 19 and 5 overall — heading into CIF playoffs RED HOT!
 
 Boys Lacrosse went 2 and 0 this week! They beat Santana 12 to 9 at home Friday, then went on the road Tuesday and BLEW OUT Helix 17 to 3! The Eagles are now 14 and 3 and headed to the CIF QUARTERFINALS! TONIGHT they host El Capitan and Lakeside right here at Granite Hills Stadium at 7 PM — and then SATURDAY NIGHT, the BIG ONE — Boys Lacrosse hosts Santana in the CIF QUARTERFINALS, 7 PM at Granite Hills Stadium! Eagles, you do NOT want to miss this one — come out, pack the stands, and bring the noise! Let's send our boys to the semifinals!
 

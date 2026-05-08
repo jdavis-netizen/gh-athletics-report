@@ -58,11 +58,12 @@ function getSampleData() {
       },
       {
         name: "Boys Lacrosse",
-        record: "14-3 overall",
+        record: "14-3 overall — CIF Quarterfinals 🏆",
         games: [
           { date: "Fri 4/24", opponent: "vs Santana", score: "12-9", result: "W", notes: "Home win at Granite Hills Stadium — solid grind-it-out victory" },
           { date: "Tue 4/28", opponent: "@ Helix", score: "17-3", result: "W", notes: "Dominant road blowout over the Scotties; Eagles continue to roll" },
-          { date: "Fri 5/1", opponent: "vs El Capitan/Lakeside", score: "", result: "", notes: "Tonight at Granite Hills Stadium — 7:00 PM" }
+          { date: "Fri 5/1", opponent: "vs El Capitan/Lakeside", score: "", result: "", notes: "Tonight at Granite Hills Stadium — 7:00 PM" },
+          { date: "Sat 5/2", opponent: "vs Santana (CIF QF)", score: "", result: "", notes: "🏆 CIF QUARTERFINALS — Saturday at 7:00 PM at Granite Hills Stadium! Pack the stands and bring the noise!" }
         ]
       },
       {
@@ -110,6 +111,7 @@ function getSampleData() {
     ],
     notables: [
       "🏆 Girls Swimming — GROSSMONT HILLS LEAGUE CHAMPIONS! Lady Eagles claim the league title!",
+      "🏆 Boys Lacrosse — CIF QUARTERFINALS this Saturday vs Santana, 7:00 PM at Granite Hills Stadium! Come out and pack the stands!",
       "Baseball — Crushed Valhalla 20-0 at home Thursday in a dominant league win; Eagles now 16-5 and rolling into the final week",
       "Boys Lacrosse — Went 2-0 with a 12-9 home win over Santana and a 17-3 road blowout at Helix; now 14-3 overall",
       "Girls Lacrosse — Perfect 2-0 week with a 15-6 win at Valhalla and an 11-9 home win over El Capitan/Lakeside",
@@ -123,7 +125,7 @@ The biggest news: our Girls Swimming & Diving team has officially claimed the Gr
 
 Baseball delivered another headline performance — a dominant 20–0 home shutout of Valhalla on Thursday. The offense was relentless and the pitching was sharp; it was the kind of all-around performance that signals a team peaking at the right time. The Eagles improve to 16–5 overall and travel to Valhalla tonight to look to sweep the league series.
 
-Boys Lacrosse went a perfect 2–0 on the week. The Eagles opened with a 12–9 home win over Santana on Friday, then traveled to Helix on Tuesday and posted a dominant 17–3 road victory. Now 14–3 overall, the team continues to play some of the best lacrosse in East County. They host El Capitan/Lakeside tonight at Granite Hills Stadium at 7:00 PM.
+Boys Lacrosse went a perfect 2–0 on the week. The Eagles opened with a 12–9 home win over Santana on Friday, then traveled to Helix on Tuesday and posted a dominant 17–3 road victory. Now 14–3 overall, the team has earned a spot in the CIF Quarterfinals. They host El Capitan/Lakeside tonight at Granite Hills Stadium at 7:00 PM, and then face Santana in a CIF Quarterfinal rematch this Saturday at 7:00 PM at Granite Hills Stadium. We anticipate a packed house — please help spread the word.
 
 Girls Lacrosse also went 2–0, opening with a strong 15–6 road win at Valhalla on Friday and following it up with an 11–9 home win over El Capitan/Lakeside on Tuesday. The Lady Eagles travel to West Hills tonight at 7:00 PM.
 
@@ -147,7 +149,7 @@ First — let's give it up for our Girls Swimming and Diving team — they are y
 
 Eagle Baseball put on a SHOW Thursday — they shut out Valhalla 20 to ZERO at home! That's right, 20 to nothing! The offense, the pitching, the defense — everything was working! The Eagles are now 16 and 5 overall, and they're back at it TONIGHT on the road at Valhalla, 4 PM!
 
-Boys Lacrosse went 2 and 0 this week! They beat Santana 12 to 9 at home Friday, then went on the road Tuesday and BLEW OUT Helix 17 to 3! The Eagles are now 14 and 3! And TONIGHT they host El Capitan and Lakeside right here at Granite Hills Stadium — 7 PM! Come out and cheer on the Eagles!
+Boys Lacrosse went 2 and 0 this week! They beat Santana 12 to 9 at home Friday, then went on the road Tuesday and BLEW OUT Helix 17 to 3! The Eagles are now 14 and 3 and headed to the CIF QUARTERFINALS! TONIGHT they host El Capitan and Lakeside right here at Granite Hills Stadium at 7 PM — and then SATURDAY NIGHT, the BIG ONE — Boys Lacrosse hosts Santana in the CIF QUARTERFINALS, 7 PM at Granite Hills Stadium! Eagles, you do NOT want to miss this one — come out, pack the stands, and bring the noise! Let's send our boys to the semifinals!
 
 Girls Lacrosse also went 2 and 0! They beat Valhalla 15 to 6 on the road Friday, then held on for an 11 to 9 home win over El Capitan and Lakeside on Tuesday! The Lady Eagles travel to West Hills tonight at 7 PM!
 

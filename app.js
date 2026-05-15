@@ -78,16 +78,16 @@ function getSampleData() {
       },
       {
         name: "Swimming & Diving",
-        record: "Girls — Grossmont Hills League Champions 🏆 | Both teams at CIF Championships",
+        record: "🏆 Girls GHL Champions | 2 CIF Champs — Austin Felio & Ella Morgan headed to STATE!",
         games: [
-          { date: "This Week", opponent: "CIF San Diego Championships", score: "", result: "", notes: "🏆 Boys and Girls Swim & Dive teams competing at the CIF San Diego Section Championships this week — represent Eagles!" }
+          { date: "CIF Champions", opponent: "Austin Felio & Ella Morgan", score: "1st Place", result: "W", notes: "🏆 BOTH WON CIF and qualified for the CIF California State Championships! Outstanding achievement!" },
+          { date: "This Week", opponent: "CIF San Diego Championships", score: "", result: "", notes: "🏆 Boys and Girls Swim & Dive teams competed at the CIF San Diego Section Championships — represent Eagles!" }
         ]
       },
       {
         name: "Track & Field",
-        record: "🏆 2 CIF Champions — Austin Felio & Ella Morgan headed to STATE!",
+        record: "Competing in CIF postseason",
         games: [
-          { date: "CIF Champions", opponent: "Austin Felio & Ella Morgan", score: "1st Place", result: "W", notes: "🏆 BOTH WON CIF and qualified for the CIF California State Championships! Outstanding achievement!" },
           { date: "Sat 5/9", opponent: "CIF-SS Division Prelims", score: "", result: "", notes: "Eagles ran in CIF San Diego Section Division Preliminaries — top performers advance toward Section Finals on May 23 at Mt. Carmel HS" }
         ]
       },
@@ -103,7 +103,7 @@ function getSampleData() {
       }
     ],
     notables: [
-      "🏆 Austin Felio & Ella Morgan (Track & Field) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
+      "🏆 Austin Felio & Ella Morgan (Swimming & Diving) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
       "🏆 Boys Lacrosse — CIF FINALS! Beat the Saints in the Semifinal and now play Santa Fe Christian SATURDAY at 4:00 PM for the CIF CHAMPIONSHIP!",
       "🏆 Baseball — 5th GROSSMONT HILLS LEAGUE TITLE IN A ROW! Perfect 2-0 week to finish 21-5, 10-2 GHL — CIF playoffs ahead!",
       "Baseball — Closed the regular season with a statement 13-0 home shutout of Valhalla on Thursday",
@@ -120,7 +120,9 @@ Baseball closed the regular season in dominant fashion, going a perfect 2–0 on
 
 Softball had a difficult week, dropping two close league road games — a 6–4 loss at El Capitan on Tuesday and a one-run 7–6 heartbreaker at Grossmont on Thursday. The Lady Eagles finish the regular season at 8–15 (3–5 GHL). Our student-athletes never stopped competing.
 
-Track & Field delivered the individual headline of the season — Austin Felio and Ella Morgan both WON their CIF events and qualified for the CIF California State Championships! This is an exceptional accomplishment and a tremendous representation of Granite Hills at the state level. Please join me in congratulating Austin and Ella. The CIF San Diego Section Finals continue on May 23 at Mt. Carmel High School, with more Eagle athletes still in the hunt.
+Swimming & Diving delivered the individual headline of the season — Austin Felio and Ella Morgan both WON their CIF events and qualified for the CIF California State Championships! This is an exceptional accomplishment and a tremendous representation of Granite Hills at the state level. Please join me in congratulating Austin and Ella. Combined with our Girls team's Grossmont Hills League championship, this has been an outstanding postseason for Eagle Swim & Dive.
+
+Track & Field began their CIF postseason on Saturday, May 9, at the CIF San Diego Section Division Preliminaries. Section Finals continue May 23 at Mt. Carmel High School.
 
 Swimming & Diving — fresh off the Girls team's Grossmont Hills League championship — are competing at the CIF San Diego Section Championships this week. Both Boys and Girls squads have qualified, and we are proud of the depth of talent representing the Eagles at the section level.
 
@@ -142,7 +144,9 @@ Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular seaso
 
 Lady Eagles Softball battled hard on the road this week — tough one-run loss at Grossmont Thursday to finish the regular season. Thank you, seniors, for an incredible year — we are PROUD of you!
 
-HUGE shoutout to Track and Field — Austin Felio and Ella Morgan BOTH WON CIF and are headed to the CIF CALIFORNIA STATE CHAMPIONSHIPS! Congratulations Austin and Ella — you are making Granite Hills history! Section Finals continue May 23 at Mt. Carmel — let's go track Eagles!
+HUGE shoutout to Eagle Swimming and Diving — Austin Felio and Ella Morgan BOTH WON CIF and are headed to the CIF CALIFORNIA STATE CHAMPIONSHIPS! Congratulations Austin and Ella — you are making Granite Hills history! And don't forget — your GIRLS Swim and Dive team are your GROSSMONT HILLS LEAGUE CHAMPIONS too! Eagles, our pool is on FIRE!
+
+Track and Field is in their CIF postseason too — Section Finals coming May 23 at Mt. Carmel — let's go track Eagles!
 
 And in the pool — your Boys AND Girls Swimming and Diving teams are competing at the CIF SAN DIEGO SECTION CHAMPIONSHIPS this week! Your Lady Eagles are already your Grossmont Hills League CHAMPIONS — now they're chasing CIF hardware! GO EAGLES!
 

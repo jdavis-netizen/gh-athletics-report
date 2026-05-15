@@ -59,10 +59,11 @@ function getSampleData() {
       },
       {
         name: "Boys Lacrosse",
-        record: "17-3 overall — CIF Semifinals 🏆",
+        record: "18-3 overall — 🏆 CIF FINALS! 🏆",
         games: [
-          { date: "Sat 5/9", opponent: "vs Santana (CIF QF)", score: "17-7", result: "W", notes: "🏆 CIF QUARTERFINAL WIN! Eagles dominate Santana 17-7 to advance to the SEMIFINALS!" },
-          { date: "Sat 5/16", opponent: "vs Santa Fe Christian (CIF SF)", score: "", result: "", notes: "🏆 CIF SEMIFINAL — Saturday at Granite Hills! One step from the championship — pack the stands!" }
+          { date: "Sat 5/9", opponent: "vs Santana (CIF QF)", score: "17-7", result: "W", notes: "🏆 CIF QUARTERFINAL WIN — dominated Santana 17-7 to advance!" },
+          { date: "Wed 5/13", opponent: "vs St. Augustine (CIF SF)", score: "", result: "W", notes: "🏆 CIF SEMIFINAL WIN! Eagles take down the Saints to advance to the CIF FINAL!" },
+          { date: "Sat 5/16", opponent: "vs Santa Fe Christian (CIF FINAL)", score: "", result: "", notes: "🏆🏆 CIF FINAL — Saturday at 4:00 PM vs Santa Fe Christian! PLAYING FOR THE CHAMPIONSHIP!" }
         ]
       },
       {
@@ -103,7 +104,7 @@ function getSampleData() {
     ],
     notables: [
       "🏆 Austin Felio & Ella Morgan (Track & Field) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
-      "🏆 Boys Lacrosse — CIF QUARTERFINAL WIN! Dominated Santana 17-7 to advance to the CIF SEMIFINALS this Saturday, May 16!",
+      "🏆 Boys Lacrosse — CIF FINALS! Beat the Saints in the Semifinal and now play Santa Fe Christian SATURDAY at 4:00 PM for the CIF CHAMPIONSHIP!",
       "🏆 Baseball — 5th GROSSMONT HILLS LEAGUE TITLE IN A ROW! Perfect 2-0 week to finish 21-5, 10-2 GHL — CIF playoffs ahead!",
       "Baseball — Closed the regular season with a statement 13-0 home shutout of Valhalla on Thursday",
       "Swimming & Diving — Both Boys and Girls teams representing Granite Hills at the CIF San Diego Section Championships this week",
@@ -113,7 +114,7 @@ function getSampleData() {
 
 I'm pleased to share this week's Eagle Athletics update for the week of May 9–15, 2026. It was a tremendous week for our spring teams as several programs closed out their regular seasons and advanced deeper into CIF playoffs. Granite Hills is firmly in the postseason spotlight across multiple sports.
 
-The headline of the week comes from Boys Lacrosse. On Saturday, May 9, the Eagles defeated Santana 17–7 at Granite Hills Stadium in the CIF Quarterfinals — a dominant performance in front of a packed home crowd. The team improves to 17–3 overall and now advances to the CIF SEMIFINALS this Saturday, May 16, at home against Santa Fe Christian. We are one win away from the CIF Final, and another strong turnout from our school community would mean a great deal to these student-athletes.
+The headline of the week comes from Boys Lacrosse. After defeating Santana 17–7 in the CIF Quarterfinals on Saturday, May 9, the Eagles took down St. Augustine on Wednesday, May 13, in the CIF SEMIFINAL — and have now advanced to the CIF FINAL. They will play Santa Fe Christian this Saturday, May 16, at 4:00 PM for the CIF CHAMPIONSHIP. The team is 18–3 overall and one win away from a section title. This is a marquee moment for Granite Hills athletics and we would love to see a strong showing of support from the school community.
 
 Baseball closed the regular season in dominant fashion, going a perfect 2–0 on the week. The Eagles won 12–9 on the road at Grossmont on Wednesday and then dismantled Valhalla 13–0 at home on Thursday to wrap up the regular season. The team finished 21–5 overall and 10–2 in the Grossmont Hills League — and with this title, the Eagles have now won the Grossmont Hills League for the FIFTH YEAR IN A ROW. This is a true dynasty and a tremendous credit to our players, our coaching staff, and our program. CIF playoffs begin next week.
 
@@ -135,7 +136,7 @@ Granite Hills High School`,
 
     paScript: `Good morning, Eagles! HUGE week of athletics — and an even bigger weekend ahead!
 
-SATURDAY NIGHT — your Boys Lacrosse Eagles are in the CIF SEMIFINALS at home against Santa Fe Christian! That's right — after DOMINATING Santana 17 to 7 last Saturday, the Eagles are now 17 and 3 and just ONE WIN away from the CIF FINAL! Eagles, this is the biggest home game of the year — come out, pack the stands, bring the noise, and let's send our boys to the championship!
+SATURDAY AT 4 PM — your Boys Lacrosse Eagles are playing in the CIF FINAL against Santa Fe Christian! That's right Eagles — the CHAMPIONSHIP GAME! After DOMINATING Santana 17 to 7 in the Quarterfinals, then BEATING the Saints in the Semifinal on Wednesday, the Eagles are now 18 and 3 and ONE WIN AWAY FROM A CIF CHAMPIONSHIP! Eagles — this is THE BIGGEST GAME OF THE YEAR! Saturday, 4 PM — come out, pack the stands, bring the noise, and let's bring home a CIF TITLE!
 
 Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular season! Wednesday they beat Grossmont 12 to 9 on the road, and Thursday they SHUT OUT Valhalla 13 to nothing at home! The Eagles finish 21 and 5 overall and 10 and 2 in league — and with that, your Eagle Baseball team has now won the GROSSMONT HILLS LEAGUE TITLE for the FIFTH YEAR IN A ROW! That's right — FIVE STRAIGHT! This is a DYNASTY, Eagles! CIF playoffs start NEXT WEEK — let's go!
 
@@ -145,7 +146,7 @@ HUGE shoutout to Track and Field — Austin Felio and Ella Morgan BOTH WON CIF a
 
 And in the pool — your Boys AND Girls Swimming and Diving teams are competing at the CIF SAN DIEGO SECTION CHAMPIONSHIPS this week! Your Lady Eagles are already your Grossmont Hills League CHAMPIONS — now they're chasing CIF hardware! GO EAGLES!
 
-Eagles — let's pack Granite Hills Stadium SATURDAY for Boys Lacrosse vs Santa Fe Christian — CIF SEMIFINALS! One win from the CIF FINAL! Wear your navy and Columbia blue, bring your friends, and let's send our boys to the championship! GO EAGLES!`
+Eagles — SATURDAY at 4 PM — Boys Lacrosse vs Santa Fe Christian — CIF FINAL! Wear your navy and Columbia blue, bring your friends, and let's bring home a CIF CHAMPIONSHIP! GO EAGLES!`
   };
 }
 

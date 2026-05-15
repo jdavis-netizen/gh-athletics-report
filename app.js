@@ -84,8 +84,9 @@ function getSampleData() {
       },
       {
         name: "Track & Field",
-        record: "Competing in CIF postseason",
+        record: "🏆 2 CIF Champions — Austin Felio & Ella Morgan headed to STATE!",
         games: [
+          { date: "CIF Champions", opponent: "Austin Felio & Ella Morgan", score: "1st Place", result: "W", notes: "🏆 BOTH WON CIF and qualified for the CIF California State Championships! Outstanding achievement!" },
           { date: "Sat 5/9", opponent: "CIF-SS Division Prelims", score: "", result: "", notes: "Eagles ran in CIF San Diego Section Division Preliminaries — top performers advance toward Section Finals on May 23 at Mt. Carmel HS" }
         ]
       },
@@ -101,10 +102,10 @@ function getSampleData() {
       }
     ],
     notables: [
+      "🏆 Austin Felio & Ella Morgan (Track & Field) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
       "🏆 Boys Lacrosse — CIF QUARTERFINAL WIN! Dominated Santana 17-7 to advance to the CIF SEMIFINALS this Saturday, May 16!",
       "🏆 Baseball — Perfect 2-0 week to finish regular season 21-5, 10-2 GHL, 1st place — CIF playoffs ahead!",
       "Baseball — Closed the regular season with a statement 13-0 home shutout of Valhalla on Thursday",
-      "Track & Field — Eagles competed at CIF San Diego Division Preliminaries Saturday 5/9 — Section Finals coming May 23 at Mt. Carmel",
       "Swimming & Diving — Both Boys and Girls teams representing Granite Hills at the CIF San Diego Section Championships this week",
       "Softball — Lady Eagles battled to a one-run road loss at Grossmont (6-7) to close the regular season"
     ],
@@ -118,7 +119,7 @@ Baseball closed the regular season in dominant fashion, going a perfect 2–0 on
 
 Softball had a difficult week, dropping two close league road games — a 6–4 loss at El Capitan on Tuesday and a one-run 7–6 heartbreaker at Grossmont on Thursday. The Lady Eagles finish the regular season at 8–15 (3–5 GHL). Our student-athletes never stopped competing.
 
-Track & Field began their CIF postseason on Saturday, May 9, competing at the CIF San Diego Section Division Preliminaries. Top finishers from this meet advance toward the CIF San Diego Section Finals on May 23 at Mt. Carmel High School. We will share final results and qualifiers in next week's report.
+Track & Field delivered the individual headline of the season — Austin Felio and Ella Morgan both WON their CIF events and qualified for the CIF California State Championships! This is an exceptional accomplishment and a tremendous representation of Granite Hills at the state level. Please join me in congratulating Austin and Ella. The CIF San Diego Section Finals continue on May 23 at Mt. Carmel High School, with more Eagle athletes still in the hunt.
 
 Swimming & Diving — fresh off the Girls team's Grossmont Hills League championship — are competing at the CIF San Diego Section Championships this week. Both Boys and Girls squads have qualified, and we are proud of the depth of talent representing the Eagles at the section level.
 
@@ -140,11 +141,11 @@ Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular seaso
 
 Lady Eagles Softball battled hard on the road this week — tough one-run loss at Grossmont Thursday to finish the regular season. Thank you, seniors, for an incredible year — we are PROUD of you!
 
-Track and Field kicked off their CIF postseason last Saturday at Division Prelims! Eagle athletes ran their hearts out — Section Finals are coming May 23 at Mt. Carmel — let's go track Eagles!
+HUGE shoutout to Track and Field — Austin Felio and Ella Morgan BOTH WON CIF and are headed to the CIF CALIFORNIA STATE CHAMPIONSHIPS! Congratulations Austin and Ella — you are making Granite Hills history! Section Finals continue May 23 at Mt. Carmel — let's go track Eagles!
 
 And in the pool — your Boys AND Girls Swimming and Diving teams are competing at the CIF SAN DIEGO SECTION CHAMPIONSHIPS this week! Your Lady Eagles are already your Grossmont Hills League CHAMPIONS — now they're chasing CIF hardware! GO EAGLES!
 
-Eagles — let's pack Granite Hills Stadium SATURDAY for Boys Lacrosse vs Santa Fe Christian — CIF SEMIFINALS! One win from the CIF FINAL! Wear your green and gold, bring your friends, and let's send our boys to the championship! GO EAGLES!`
+Eagles — let's pack Granite Hills Stadium SATURDAY for Boys Lacrosse vs Santa Fe Christian — CIF SEMIFINALS! One win from the CIF FINAL! Wear your navy and Columbia blue, bring your friends, and let's send our boys to the championship! GO EAGLES!`
   };
 }
 

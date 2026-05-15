@@ -43,7 +43,7 @@ function getSampleData() {
     sports: [
       {
         name: "Baseball",
-        record: "21-5 overall, 10-2 GHL — 1st place 🏆",
+        record: "21-5 overall, 10-2 GHL — 🏆 5x League Champions in a row!",
         games: [
           { date: "Wed 5/13", opponent: "@ Grossmont", score: "12-9", result: "W", notes: "Big road win to keep first place locked up" },
           { date: "Thu 5/14", opponent: "vs Valhalla", score: "13-0", result: "W", notes: "Dominant home shutout to close the regular season — 13 runs!" }
@@ -104,7 +104,7 @@ function getSampleData() {
     notables: [
       "🏆 Austin Felio & Ella Morgan (Track & Field) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
       "🏆 Boys Lacrosse — CIF QUARTERFINAL WIN! Dominated Santana 17-7 to advance to the CIF SEMIFINALS this Saturday, May 16!",
-      "🏆 Baseball — Perfect 2-0 week to finish regular season 21-5, 10-2 GHL, 1st place — CIF playoffs ahead!",
+      "🏆 Baseball — 5th GROSSMONT HILLS LEAGUE TITLE IN A ROW! Perfect 2-0 week to finish 21-5, 10-2 GHL — CIF playoffs ahead!",
       "Baseball — Closed the regular season with a statement 13-0 home shutout of Valhalla on Thursday",
       "Swimming & Diving — Both Boys and Girls teams representing Granite Hills at the CIF San Diego Section Championships this week",
       "Softball — Lady Eagles battled to a one-run road loss at Grossmont (6-7) to close the regular season"
@@ -115,7 +115,7 @@ I'm pleased to share this week's Eagle Athletics update for the week of May 9–
 
 The headline of the week comes from Boys Lacrosse. On Saturday, May 9, the Eagles defeated Santana 17–7 at Granite Hills Stadium in the CIF Quarterfinals — a dominant performance in front of a packed home crowd. The team improves to 17–3 overall and now advances to the CIF SEMIFINALS this Saturday, May 16, at home against Santa Fe Christian. We are one win away from the CIF Final, and another strong turnout from our school community would mean a great deal to these student-athletes.
 
-Baseball closed the regular season in dominant fashion, going a perfect 2–0 on the week. The Eagles won 12–9 on the road at Grossmont on Wednesday and then dismantled Valhalla 13–0 at home on Thursday to wrap up the regular season. The team finished 21–5 overall and 10–2 in the Grossmont Hills League — the outright league champions and well-positioned for a deep CIF playoff run that begins next week.
+Baseball closed the regular season in dominant fashion, going a perfect 2–0 on the week. The Eagles won 12–9 on the road at Grossmont on Wednesday and then dismantled Valhalla 13–0 at home on Thursday to wrap up the regular season. The team finished 21–5 overall and 10–2 in the Grossmont Hills League — and with this title, the Eagles have now won the Grossmont Hills League for the FIFTH YEAR IN A ROW. This is a true dynasty and a tremendous credit to our players, our coaching staff, and our program. CIF playoffs begin next week.
 
 Softball had a difficult week, dropping two close league road games — a 6–4 loss at El Capitan on Tuesday and a one-run 7–6 heartbreaker at Grossmont on Thursday. The Lady Eagles finish the regular season at 8–15 (3–5 GHL). Our student-athletes never stopped competing.
 
@@ -137,7 +137,7 @@ Granite Hills High School`,
 
 SATURDAY NIGHT — your Boys Lacrosse Eagles are in the CIF SEMIFINALS at home against Santa Fe Christian! That's right — after DOMINATING Santana 17 to 7 last Saturday, the Eagles are now 17 and 3 and just ONE WIN away from the CIF FINAL! Eagles, this is the biggest home game of the year — come out, pack the stands, bring the noise, and let's send our boys to the championship!
 
-Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular season! Wednesday they beat Grossmont 12 to 9 on the road, and Thursday they SHUT OUT Valhalla 13 to nothing at home! The Eagles finish 21 and 5 overall and 10 and 2 in league — your Grossmont Hills League CHAMPIONS! CIF playoffs start NEXT WEEK — let's go Eagles!
+Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular season! Wednesday they beat Grossmont 12 to 9 on the road, and Thursday they SHUT OUT Valhalla 13 to nothing at home! The Eagles finish 21 and 5 overall and 10 and 2 in league — and with that, your Eagle Baseball team has now won the GROSSMONT HILLS LEAGUE TITLE for the FIFTH YEAR IN A ROW! That's right — FIVE STRAIGHT! This is a DYNASTY, Eagles! CIF playoffs start NEXT WEEK — let's go!
 
 Lady Eagles Softball battled hard on the road this week — tough one-run loss at Grossmont Thursday to finish the regular season. Thank you, seniors, for an incredible year — we are PROUD of you!
 

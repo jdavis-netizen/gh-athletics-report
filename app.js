@@ -38,33 +38,25 @@ document.querySelectorAll('.btn-copy').forEach(btn => {
 // ===== SAMPLE DATA =====
 function getSampleData() {
   return {
-    weekLabel: "Week of May 9–15, 2026",
-    dateRange: "Saturday, May 9 – Friday, May 15, 2026",
+    weekLabel: "Week of May 23–29, 2026",
+    dateRange: "Saturday, May 23 – Friday, May 29, 2026",
     sports: [
       {
         name: "Baseball",
-        record: "21-5 overall, 10-2 GHL — 🏆 5x League Champions in a row!",
+        record: "🏆 5x Grossmont Hills League Champions — Season complete",
         games: [
-          { date: "Wed 5/13", opponent: "@ Grossmont", score: "12-9", result: "W", notes: "Big road win to keep first place locked up" },
-          { date: "Thu 5/14", opponent: "vs Valhalla", score: "13-0", result: "W", notes: "Dominant home shutout to close the regular season — 13 runs!" }
+          { date: "Wed 5/27", opponent: "CIF Playoffs", score: "", result: "L", notes: "Eagles' season comes to an end in the CIF Playoffs after a remarkable year — 5-time league champs, 21+ wins, and a great group of Eagles. Proud of the run." }
         ]
       },
       {
         name: "Softball",
-        record: "8-15 overall, 3-5 GHL",
-        games: [
-          { date: "Tue 5/12", opponent: "@ El Capitan", score: "4-6", result: "L", notes: "Hard-fought road loss in league play" },
-          { date: "Thu 5/14", opponent: "@ Grossmont", score: "6-7", result: "L", notes: "Heartbreaker on the road — one-run loss to close the regular season" }
-        ]
+        record: "Season complete",
+        games: []
       },
       {
         name: "Boys Lacrosse",
-        record: "18-3 overall — 🏆 CIF FINALS! 🏆",
-        games: [
-          { date: "Sat 5/9", opponent: "vs Santana (CIF QF)", score: "17-7", result: "W", notes: "🏆 CIF QUARTERFINAL WIN — dominated Santana 17-7 to advance!" },
-          { date: "Wed 5/13", opponent: "vs St. Augustine (CIF SF)", score: "", result: "W", notes: "🏆 CIF SEMIFINAL WIN! Eagles take down the Saints to advance to the CIF FINAL!" },
-          { date: "Sat 5/16", opponent: "vs Santa Fe Christian (CIF FINAL)", score: "", result: "", notes: "🏆🏆 CIF FINAL — Saturday at 4:00 PM vs Santa Fe Christian! PLAYING FOR THE CHAMPIONSHIP!" }
-        ]
+        record: "Season complete — CIF Finalist 🏆",
+        games: []
       },
       {
         name: "Girls Lacrosse",
@@ -86,9 +78,9 @@ function getSampleData() {
       },
       {
         name: "Track & Field",
-        record: "Competing in CIF postseason",
+        record: "🏆 5th Place at CIF San Diego Section Finals!",
         games: [
-          { date: "Sat 5/9", opponent: "CIF-SS Division Prelims", score: "", result: "", notes: "Eagles ran in CIF San Diego Section Division Preliminaries — top performers advance toward Section Finals on May 23 at Mt. Carmel HS" }
+          { date: "Sat 5/23", opponent: "CIF San Diego Section Finals", score: "5th Place", result: "W", notes: "🏆 Eagles finished FIFTH overall at the CIF Section Finals at Mt. Carmel HS — outstanding postseason performance!" }
         ]
       },
       {
@@ -103,32 +95,20 @@ function getSampleData() {
       }
     ],
     notables: [
-      "🏆 Austin Felio & Ella Morgan (Swimming & Diving) — BOTH WON CIF and qualified for the CIF California STATE CHAMPIONSHIPS! Tremendous achievement!",
-      "🏆 Boys Lacrosse — CIF FINALS! Beat the Saints in the Semifinal and now play Santa Fe Christian SATURDAY at 4:00 PM for the CIF CHAMPIONSHIP!",
-      "🏆 Baseball — 5th GROSSMONT HILLS LEAGUE TITLE IN A ROW! Perfect 2-0 week to finish 21-5, 10-2 GHL — CIF playoffs ahead!",
-      "Baseball — Closed the regular season with a statement 13-0 home shutout of Valhalla on Thursday",
-      "Swimming & Diving — Both Boys and Girls teams representing Granite Hills at the CIF San Diego Section Championships this week",
-      "Softball — Lady Eagles battled to a one-run road loss at Grossmont (6-7) to close the regular season"
+      "🏆 Track & Field — Eagles finished 5TH PLACE at the CIF San Diego Section Finals on Saturday at Mt. Carmel! Tremendous postseason performance!",
+      "Baseball — A great run comes to an end. The 5-time league champion Eagles were eliminated in the CIF Playoffs on Wednesday. Proud of an outstanding season!"
     ],
     principalMemo: `Dear Dr. Jesperson,
 
-I'm pleased to share this week's Eagle Athletics update for the week of May 9–15, 2026. It was a tremendous week for our spring teams as several programs closed out their regular seasons and advanced deeper into CIF playoffs. Granite Hills is firmly in the postseason spotlight across multiple sports.
+I'm pleased to share this week's Eagle Athletics update for the week of May 23–29, 2026. A quieter week overall, with one fantastic team result and the end of an outstanding baseball season to report.
 
-The headline of the week comes from Boys Lacrosse. After defeating Santana 17–7 in the CIF Quarterfinals on Saturday, May 9, the Eagles took down St. Augustine on Wednesday, May 13, in the CIF SEMIFINAL — and have now advanced to the CIF FINAL. They will play Santa Fe Christian this Saturday, May 16, at 4:00 PM for the CIF CHAMPIONSHIP. The team is 18–3 overall and one win away from a section title. This is a marquee moment for Granite Hills athletics and we would love to see a strong showing of support from the school community.
+Track & Field delivered the highlight of the week, finishing FIFTH PLACE at the CIF San Diego Section Finals on Saturday, May 23, at Mt. Carmel High School. To place 5th in a section as competitive as San Diego is a real achievement and a great team effort by our athletes and coaches.
 
-Baseball closed the regular season in dominant fashion, going a perfect 2–0 on the week. The Eagles won 12–9 on the road at Grossmont on Wednesday and then dismantled Valhalla 13–0 at home on Thursday to wrap up the regular season. The team finished 21–5 overall and 10–2 in the Grossmont Hills League — and with this title, the Eagles have now won the Grossmont Hills League for the FIFTH YEAR IN A ROW. This is a true dynasty and a tremendous credit to our players, our coaching staff, and our program. CIF playoffs begin next week.
+Baseball's outstanding season came to an end on Wednesday in the CIF Playoffs. While the result was not what we hoped for, the 2026 Eagles will be remembered for winning the Grossmont Hills League for the FIFTH YEAR IN A ROW, an outstanding regular-season run, and the way they represented our school throughout the year. Thank you to our players, coaches, and families for an incredible season.
 
-Softball had a difficult week, dropping two close league road games — a 6–4 loss at El Capitan on Tuesday and a one-run 7–6 heartbreaker at Grossmont on Thursday. The Lady Eagles finish the regular season at 8–15 (3–5 GHL). Our student-athletes never stopped competing.
+With baseball's elimination, the rest of our spring programs have wrapped their seasons as well. Boys Lacrosse finished as CIF Finalists. Boys Volleyball finished as Grossmont Hills League champions. Our Girls Swim & Dive team are Grossmont Hills League champions, with Austin Felio and Ella Morgan competing at the CIF California State Championships.
 
-Swimming & Diving delivered the individual headline of the season — Austin Felio and Ella Morgan both WON their CIF events and qualified for the CIF California State Championships! This is an exceptional accomplishment and a tremendous representation of Granite Hills at the state level. Please join me in congratulating Austin and Ella. Combined with our Girls team's Grossmont Hills League championship, this has been an outstanding postseason for Eagle Swim & Dive.
-
-Track & Field began their CIF postseason on Saturday, May 9, at the CIF San Diego Section Division Preliminaries. Section Finals continue May 23 at Mt. Carmel High School.
-
-Swimming & Diving — fresh off the Girls team's Grossmont Hills League championship — are competing at the CIF San Diego Section Championships this week. Both Boys and Girls squads have qualified, and we are proud of the depth of talent representing the Eagles at the section level.
-
-Girls Lacrosse, Boys Volleyball, and Boys Tennis have all completed their seasons. Boys Volleyball finished as Grossmont Hills League Champions (20–13 overall), and Girls Lacrosse made the CIF Division II tournament. Boys Golf had no scheduled events this week.
-
-Thank you, as always, for your continued support of our student-athletes. With Boys Lacrosse playing for a spot in the CIF Final, Baseball entering CIF playoffs as league champions, and Swim & Dive and Track competing at the section level, this is one of the most exciting weeks of the spring.
+It has been a tremendous spring for Eagle Athletics overall. Thank you, as always, for your continued support.
 
 Go Eagles!
 
@@ -136,21 +116,13 @@ James Davis
 Athletic Director
 Granite Hills High School`,
 
-    paScript: `Good morning, Eagles! HUGE week of athletics — and an even bigger weekend ahead!
+    paScript: `Good morning, Eagles! A few quick athletics updates as the spring season wraps up.
 
-SATURDAY AT 4 PM — your Boys Lacrosse Eagles are playing in the CIF FINAL against Santa Fe Christian! That's right Eagles — the CHAMPIONSHIP GAME! After DOMINATING Santana 17 to 7 in the Quarterfinals, then BEATING the Saints in the Semifinal on Wednesday, the Eagles are now 18 and 3 and ONE WIN AWAY FROM A CIF CHAMPIONSHIP! Eagles — this is THE BIGGEST GAME OF THE YEAR! Saturday, 4 PM — come out, pack the stands, bring the noise, and let's bring home a CIF TITLE!
+Big shoutout to our Eagle Track and Field team — they took 5TH PLACE at the CIF San Diego Section Finals at Mt. Carmel this past Saturday! Fifth place in the entire section — that is a HUGE accomplishment! Way to go, Eagles!
 
-Eagle Baseball just finished a PERFECT 2 and 0 week to wrap up the regular season! Wednesday they beat Grossmont 12 to 9 on the road, and Thursday they SHUT OUT Valhalla 13 to nothing at home! The Eagles finish 21 and 5 overall and 10 and 2 in league — and with that, your Eagle Baseball team has now won the GROSSMONT HILLS LEAGUE TITLE for the FIFTH YEAR IN A ROW! That's right — FIVE STRAIGHT! This is a DYNASTY, Eagles! CIF playoffs start NEXT WEEK — let's go!
+And to our Eagle Baseball team — your 5-time defending Grossmont Hills League CHAMPIONS — your incredible season came to an end Wednesday in the CIF Playoffs. What a year you gave us — five league titles in a row, an outstanding regular season, and a team that represented Granite Hills with class all spring. Thank you to all our seniors — we are PROUD of you!
 
-Lady Eagles Softball battled hard on the road this week — tough one-run loss at Grossmont Thursday to finish the regular season. Thank you, seniors, for an incredible year — we are PROUD of you!
-
-HUGE shoutout to Eagle Swimming and Diving — Austin Felio and Ella Morgan BOTH WON CIF and are headed to the CIF CALIFORNIA STATE CHAMPIONSHIPS! Congratulations Austin and Ella — you are making Granite Hills history! And don't forget — your GIRLS Swim and Dive team are your GROSSMONT HILLS LEAGUE CHAMPIONS too! Eagles, our pool is on FIRE!
-
-Track and Field is in their CIF postseason too — Section Finals coming May 23 at Mt. Carmel — let's go track Eagles!
-
-And in the pool — your Boys AND Girls Swimming and Diving teams are competing at the CIF SAN DIEGO SECTION CHAMPIONSHIPS this week! Your Lady Eagles are already your Grossmont Hills League CHAMPIONS — now they're chasing CIF hardware! GO EAGLES!
-
-Eagles — SATURDAY at 4 PM — Boys Lacrosse vs Santa Fe Christian — CIF FINAL! Wear your navy and Columbia blue, bring your friends, and let's bring home a CIF CHAMPIONSHIP! GO EAGLES!`
+Eagles, what a SPRING it has been — CIF finalist boys lacrosse, league champion boys volleyball, league champion girls swim and dive with two CIF champions headed to STATE, and a 5-time league champion baseball team. THIS is Eagle Athletics! Go Eagles!`
   };
 }
 

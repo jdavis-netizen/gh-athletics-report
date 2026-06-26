@@ -38,15 +38,13 @@ document.querySelectorAll('.btn-copy').forEach(btn => {
 // ===== SAMPLE DATA =====
 function getSampleData() {
   return {
-    weekLabel: "Week of May 23–29, 2026",
-    dateRange: "Saturday, May 23 – Friday, May 29, 2026",
+    weekLabel: "Week of June 20–26, 2026 — Season Wrap-Up",
+    dateRange: "Saturday, June 20 – Friday, June 26, 2026",
     sports: [
       {
         name: "Baseball",
-        record: "🏆 5x Grossmont Hills League Champions — Still alive in CIF (double-elimination)",
-        games: [
-          { date: "Wed 5/27", opponent: "CIF Playoffs", score: "", result: "L", notes: "First playoff loss — but CIF is DOUBLE ELIMINATION, so the Eagles are still alive! Next game upcoming — let's go Eagles!" }
-        ]
+        record: "21-7 overall (10-2 league, GHL Champions) — Season complete",
+        games: []
       },
       {
         name: "Softball",
@@ -60,28 +58,23 @@ function getSampleData() {
       },
       {
         name: "Girls Lacrosse",
-        record: "Season complete — CIF run ended 5/5",
+        record: "Season complete",
         games: []
       },
       {
         name: "Boys Volleyball",
-        record: "20-13 — Season complete (GHL Champions)",
+        record: "20-13 — Season complete (GHL Champions 🏆)",
         games: []
       },
       {
         name: "Swimming & Diving",
-        record: "🏆 Girls GHL Champions | 2 CIF Champs — Austin Felio & Ella Morgan headed to STATE!",
-        games: [
-          { date: "CIF Champions", opponent: "Austin Felio & Ella Morgan", score: "1st Place", result: "W", notes: "🏆 BOTH WON CIF and qualified for the CIF California State Championships! Outstanding achievement!" },
-          { date: "This Week", opponent: "CIF San Diego Championships", score: "", result: "", notes: "🏆 Boys and Girls Swim & Dive teams competed at the CIF San Diego Section Championships — represent Eagles!" }
-        ]
+        record: "🏆 Girls GHL Champions | 2 CIF Champions to State — Season complete",
+        games: []
       },
       {
         name: "Track & Field",
-        record: "🏆 5th Place at CIF San Diego Section Finals!",
-        games: [
-          { date: "Sat 5/23", opponent: "CIF San Diego Section Finals", score: "5th Place", result: "W", notes: "🏆 Eagles finished FIFTH overall at the CIF Section Finals at Mt. Carmel HS — outstanding postseason performance!" }
-        ]
+        record: "5th Place CIF San Diego Section Finals 🏆 — Season complete",
+        games: []
       },
       {
         name: "Boys Tennis",
@@ -90,25 +83,30 @@ function getSampleData() {
       },
       {
         name: "Boys Golf",
-        record: "No events this week",
+        record: "Season complete",
         games: []
       }
     ],
     notables: [
-      "🏆 Track & Field — Eagles finished 5TH PLACE at the CIF San Diego Section Finals on Saturday at Mt. Carmel! Tremendous postseason performance!",
-      "Baseball — Eagles dropped Wednesday's CIF Playoff game, but they're still ALIVE — CIF is double-elimination! Go Eagles!"
+      "🦅 The 2026 spring season is officially in the books — and what a season it was! Granite Hills brought home league titles in baseball, boys volleyball, and girls swim & dive, plus CIF Section honors in lacrosse, track, and swimming.",
+      "🏆 Baseball — 5x Grossmont Hills League Champions, finishing 21-7 overall (10-2 in league).",
+      "🏆 Boys Lacrosse — CIF San Diego Section Finalists.",
+      "🏆 Boys Volleyball — Grossmont Hills League Champions (20-13).",
+      "🏆 Swimming & Diving — Girls GHL Champions, with Austin Felio and Ella Morgan crowned CIF Champions and advancing to the State Championships.",
+      "🏆 Track & Field — 5th Place overall at the CIF San Diego Section Finals at Mt. Carmel.",
+      "No events this week — student-athletes are on summer break. Best of luck to all our graduating seniors!"
     ],
     principalMemo: `Dear Dr. Jesperson,
 
-I'm pleased to share this week's Eagle Athletics update for the week of May 23–29, 2026. A quieter week overall, with one fantastic team result and the end of an outstanding baseball season to report.
+With our student-athletes now on summer break and the 2025–26 athletic calendar complete, I wanted to close out our weekly reports with a brief recap of an outstanding spring season for Eagle Athletics. There were no competitions during the week of June 20–26, so this serves as our season wrap-up.
 
-Track & Field delivered the highlight of the week, finishing FIFTH PLACE at the CIF San Diego Section Finals on Saturday, May 23, at Mt. Carmel High School. To place 5th in a section as competitive as San Diego is a real achievement and a great team effort by our athletes and coaches.
+Our spring teams gave Granite Hills a great deal to be proud of. Baseball captured its fifth consecutive Grossmont Hills League championship, finishing 21-7 overall and 10-2 in league play. Boys Volleyball brought home a Grossmont Hills League title of their own, closing the year at 20-13. Boys Lacrosse advanced all the way to the CIF San Diego Section Final, finishing as Section Finalists.
 
-Baseball dropped their first CIF Playoff game on Wednesday — however, the CIF tournament is double-elimination, so the Eagles are still alive in the bracket. The 5-time defending Grossmont Hills League champions will look to rebound and continue their postseason run. We will share updates as the bracket progresses.
+The pool and the track produced individual and team milestones as well. Our Girls Swim & Dive team were crowned Grossmont Hills League Champions, and swimmers Austin Felio and Ella Morgan each won CIF titles and represented Granite Hills at the CIF California State Championships. On the track, our athletes finished 5th overall at the CIF San Diego Section Finals at Mt. Carmel High School — an impressive result in one of the most competitive sections in the state.
 
-The rest of our spring programs have wrapped their seasons. Boys Lacrosse finished as CIF Finalists. Boys Volleyball finished as Grossmont Hills League champions. Our Girls Swim & Dive team are Grossmont Hills League champions, with Austin Felio and Ella Morgan competing at the CIF California State Championships.
+I want to thank our coaches, our athletes, and our families for their dedication throughout the spring, and to congratulate our graduating seniors as they move on to their next chapter. We look forward to picking back up with fall sports in August.
 
-It has been a tremendous spring for Eagle Athletics overall. Thank you, as always, for your continued support.
+Thank you, as always, for your continued support of Eagle Athletics. Have a wonderful summer.
 
 Go Eagles!
 
@@ -116,13 +114,13 @@ James Davis
 Athletic Director
 Granite Hills High School`,
 
-    paScript: `Good morning, Eagles! A few quick athletics updates as the spring season wraps up.
+    paScript: `Good morning, Eagles! As we close out the school year, let's take one more moment to celebrate an incredible spring for Eagle Athletics!
 
-Big shoutout to our Eagle Track and Field team — they took 5TH PLACE at the CIF San Diego Section Finals at Mt. Carmel this past Saturday! Fifth place in the entire section — that is a HUGE accomplishment! Way to go, Eagles!
+Your Eagles brought home the hardware this spring — baseball captured its FIFTH straight league championship, boys volleyball are league champions, and our girls swim and dive team are league champs too! Boys lacrosse made it all the way to the CIF Section FINAL, our track team placed 5th in the entire CIF San Diego Section, and swimmers Austin Felio and Ella Morgan won CIF titles and competed at the STATE championships!
 
-Eagle Baseball dropped their first CIF Playoff game on Wednesday — BUT — CIF is double-elimination, Eagles, which means our 5-time defending league champions are STILL ALIVE in the bracket! Let's rally behind these Eagles and bring home a CIF run! Game info coming soon — let's GO Eagles!
+There are no events this week — our student-athletes have earned a well-deserved summer break. A huge congratulations to all of our graduating seniors — once an Eagle, ALWAYS an Eagle!
 
-What a spring it has been so far — CIF finalist boys lacrosse, league champion boys volleyball, league champion girls swim and dive with two CIF champions headed to STATE, and our 5-time league champ baseball team still battling in CIF. THIS is Eagle Athletics! Go Eagles!`
+Thank you to every athlete, coach, and family for an unforgettable year. We'll see you in the fall! Have a great summer, and as always — GO EAGLES!`
   };
 }
 

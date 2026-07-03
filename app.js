@@ -38,75 +38,71 @@ document.querySelectorAll('.btn-copy').forEach(btn => {
 // ===== SAMPLE DATA =====
 function getSampleData() {
   return {
-    weekLabel: "Week of June 20–26, 2026 — Season Wrap-Up",
-    dateRange: "Saturday, June 20 – Friday, June 26, 2026",
+    weekLabel: "Week of June 27 – July 3, 2026 — Summer Break",
+    dateRange: "Saturday, June 27 – Friday, July 3, 2026",
     sports: [
       {
         name: "Baseball",
-        record: "21-7 overall (10-2 league, GHL Champions) — Season complete",
+        record: "Offseason — summer break (2026: 21-7, GHL Champions)",
         games: []
       },
       {
         name: "Softball",
-        record: "Season complete",
+        record: "Offseason — summer break",
         games: []
       },
       {
         name: "Boys Lacrosse",
-        record: "Season complete — CIF Finalist 🏆",
+        record: "Offseason — summer break (2026: CIF Section Finalist 🏆)",
         games: []
       },
       {
         name: "Girls Lacrosse",
-        record: "Season complete",
+        record: "Offseason — summer break",
         games: []
       },
       {
         name: "Boys Volleyball",
-        record: "20-13 — Season complete (GHL Champions 🏆)",
+        record: "Offseason — summer break (2026: 20-13, GHL Champions 🏆)",
         games: []
       },
       {
         name: "Swimming & Diving",
-        record: "🏆 Girls GHL Champions | 2 CIF Champions to State — Season complete",
+        record: "Offseason — summer break (2026: Girls GHL Champions | 2 CIF Champions to State 🏆)",
         games: []
       },
       {
         name: "Track & Field",
-        record: "5th Place CIF San Diego Section Finals 🏆 — Season complete",
+        record: "Offseason — summer break (2026: 5th Place CIF San Diego Section Finals 🏆)",
         games: []
       },
       {
         name: "Boys Tennis",
-        record: "Season complete",
+        record: "Offseason — summer break",
         games: []
       },
       {
         name: "Boys Golf",
-        record: "Season complete",
+        record: "Offseason — summer break",
         games: []
       }
     ],
     notables: [
-      "🦅 The 2026 spring season is officially in the books — and what a season it was! Granite Hills brought home league titles in baseball, boys volleyball, and girls swim & dive, plus CIF Section honors in lacrosse, track, and swimming.",
-      "🏆 Baseball — 5x Grossmont Hills League Champions, finishing 21-7 overall (10-2 in league).",
-      "🏆 Boys Lacrosse — CIF San Diego Section Finalists.",
-      "🏆 Boys Volleyball — Grossmont Hills League Champions (20-13).",
-      "🏆 Swimming & Diving — Girls GHL Champions, with Austin Felio and Ella Morgan crowned CIF Champions and advancing to the State Championships.",
-      "🏆 Track & Field — 5th Place overall at the CIF San Diego Section Finals at Mt. Carmel.",
-      "No events this week — student-athletes are on summer break. Best of luck to all our graduating seniors!"
+      "🦅 No competitions this week — Eagle student-athletes are on summer break following the close of an outstanding 2025–26 spring season.",
+      "🏆 Season highlights still fresh: baseball (5x GHL Champions, 21-7), boys volleyball (GHL Champions), and girls swim & dive (GHL Champions) all captured league titles.",
+      "🏆 Boys lacrosse finished as CIF San Diego Section Finalists, and track & field placed 5th at the CIF Section Finals.",
+      "🏊 Swimmers Austin Felio and Ella Morgan closed the year as CIF Champions who competed at the CIF California State Championships.",
+      "📅 Looking ahead: fall sports — football, girls volleyball, cross country, girls golf, field hockey, and water polo — begin practice in August. Go Eagles!"
     ],
     principalMemo: `Dear Dr. Jesperson,
 
-With our student-athletes now on summer break and the 2025–26 athletic calendar complete, I wanted to close out our weekly reports with a brief recap of an outstanding spring season for Eagle Athletics. There were no competitions during the week of June 20–26, so this serves as our season wrap-up.
+I hope this note finds you enjoying the start of summer. There were no athletic competitions during the week of June 27 – July 3, as all of our teams remain on summer break following the conclusion of the 2025–26 spring season. I wanted to keep our weekly rhythm going with a brief check-in.
 
-Our spring teams gave Granite Hills a great deal to be proud of. Baseball captured its fifth consecutive Grossmont Hills League championship, finishing 21-7 overall and 10-2 in league play. Boys Volleyball brought home a Grossmont Hills League title of their own, closing the year at 20-13. Boys Lacrosse advanced all the way to the CIF San Diego Section Final, finishing as Section Finalists.
+While the fields, pool, and courts are quiet this week, the accomplishments of our spring teams are still very much worth celebrating. Baseball closed the year as Grossmont Hills League Champions at 21-7, boys volleyball and girls swim & dive each brought home league titles of their own, boys lacrosse reached the CIF San Diego Section Final, and our track & field program placed 5th at the CIF Section Finals. Swimmers Austin Felio and Ella Morgan capped the season as CIF Champions who represented Granite Hills at the state level.
 
-The pool and the track produced individual and team milestones as well. Our Girls Swim & Dive team were crowned Grossmont Hills League Champions, and swimmers Austin Felio and Ella Morgan each won CIF titles and represented Granite Hills at the CIF California State Championships. On the track, our athletes finished 5th overall at the CIF San Diego Section Finals at Mt. Carmel High School — an impressive result in one of the most competitive sections in the state.
+Our attention now turns toward the fall. Coaches are beginning to finalize summer conditioning and camp schedules, and fall sports — including football, girls volleyball, cross country, girls golf, field hockey, and water polo — will open practice in August. I will resume detailed weekly score reporting once competitions get underway.
 
-I want to thank our coaches, our athletes, and our families for their dedication throughout the spring, and to congratulate our graduating seniors as they move on to their next chapter. We look forward to picking back up with fall sports in August.
-
-Thank you, as always, for your continued support of Eagle Athletics. Have a wonderful summer.
+Thank you, as always, for your continued support of Eagle Athletics. I hope you and your family have a restful and enjoyable holiday week.
 
 Go Eagles!
 
@@ -114,13 +110,11 @@ James Davis
 Athletic Director
 Granite Hills High School`,
 
-    paScript: `Good morning, Eagles! As we close out the school year, let's take one more moment to celebrate an incredible spring for Eagle Athletics!
+    paScript: `Good morning, Eagles, and happy summer! There are no events to report this week — our student-athletes are enjoying a well-earned break after an unforgettable spring season.
 
-Your Eagles brought home the hardware this spring — baseball captured its FIFTH straight league championship, boys volleyball are league champions, and our girls swim and dive team are league champs too! Boys lacrosse made it all the way to the CIF Section FINAL, our track team placed 5th in the entire CIF San Diego Section, and swimmers Austin Felio and Ella Morgan won CIF titles and competed at the STATE championships!
+And what a spring it was! Baseball, boys volleyball, and girls swim and dive all brought home LEAGUE championships. Boys lacrosse made it all the way to the CIF Section Final, our track team placed 5th in the entire CIF San Diego Section, and swimmers Austin Felio and Ella Morgan won CIF titles and competed at the STATE championships!
 
-There are no events this week — our student-athletes have earned a well-deserved summer break. A huge congratulations to all of our graduating seniors — once an Eagle, ALWAYS an Eagle!
-
-Thank you to every athlete, coach, and family for an unforgettable year. We'll see you in the fall! Have a great summer, and as always — GO EAGLES!`
+Enjoy the break, Eagles — and get ready, because fall sports kick off in August! Have a safe and happy Fourth of July, and as always — GO EAGLES!`
   };
 }
 
